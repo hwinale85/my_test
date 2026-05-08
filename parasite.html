@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기생충 | 올필름</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+    <header class="header">
+        <div class="header__container">
+            <a href="index.html" class="header__logo">올필름</a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="index.html" class="header__link">홈</a></li>
+                    <li class="header__item"><a href="#" class="header__link">영화</a></li>
+                    <li class="header__item"><a href="#" class="header__link">시리즈</a></li>
+                </ul>
+            </nav>
+            <div class="header__user">
+                <button class="button button--secondary">로그인</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Movie Hero Section -->
+        <section class="movie-hero" style="background-image: linear-gradient(rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.9) 100%), url('https://images.unsplash.com/photo-1585647347384-2593bc35786b?auto=format&fit=crop&q=80&w=1920');">
+            <div class="movie-hero__container">
+                <div class="movie-hero__content">
+                    <span class="movie-hero__category">드라마 / 스릴러</span>
+                    <h1 class="movie-hero__title">기생충 (Parasite)</h1>
+                    <div class="movie-hero__meta">
+                        <span class="movie-hero__rating">★ 4.9</span>
+                        <span class="movie-hero__year">2019</span>
+                        <span class="movie-hero__duration">132분</span>
+                        <span class="movie-hero__director">감독: 봉준호</span>
+                    </div>
+                    <div class="movie-hero__actions">
+                        <button class="button button--primary">지금 시청하기</button>
+                        <button class="button button--secondary">관심 콘텐츠 추가</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Movie Details -->
+        <div class="movie-details">
+            <div class="movie-details__container">
+                <div class="movie-details__layout">
+                    <!-- Synopsis & Info -->
+                    <section class="movie-info">
+                        <h2 class="movie-info__title">줄거리</h2>
+                        <p class="movie-info__text">
+                            전원 백수로 살 길 막막하지만 사이는 좋은 기택 가족. 장남 기우가 고액 과외 자리를 얻게 되며 글로벌 IT 기업 CEO 박 사장네 집에 발을 들이게 됩니다. 이를 시작으로 기택네 온 가족이 박 사장네 집에 기생하며 벌어지는 예측 불허의 이야기를 담은 블랙 코미디 서스펜스 영화입니다.
+                        </p>
+                        <div class="movie-info__grid">
+                            <div class="movie-info__item">
+                                <h3 class="movie-info__label">출연진</h3>
+                                <p class="movie-info__value">송강호, 이선균, 조여정, 최우식, 박소담, 장혜진</p>
+                            </div>
+                            <div class="movie-info__item">
+                                <h3 class="movie-info__label">주요 수상</h3>
+                                <p class="movie-info__value">제92회 아카데미 작품상, 제72회 칸 영화제 황금종려상</p>
+                            </div>
+                        </div>
+
+                        <!-- Still Cuts -->
+                        <div class="movie-stills">
+                            <h2 class="movie-info__title">스틸컷</h2>
+                            <div class="movie-stills__grid">
+                                <div class="movie-stills__item" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800');"></div>
+                                <div class="movie-stills__item" style="background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800');"></div>
+                                <div class="movie-stills__item" style="background-image: url('https://images.unsplash.com/photo-1513584684374-8bdb74838a0f?auto=format&fit=crop&q=80&w=800');"></div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Reviews Section -->
+                    <aside class="movie-reviews">
+                        <h2 class="movie-info__title">사용자 리뷰</h2>
+                        <div class="review-card">
+                            <div class="review-card__header">
+                                <span class="review-card__user">시네필_99</span>
+                                <span class="review-card__stars">★★★★★</span>
+                            </div>
+                            <p class="review-card__text">말 그대로 마스터피스. 페이싱, 촬영, 메시지 모든 것이 완벽합니다.</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-card__header">
+                                <span class="review-card__user">무비버프</span>
+                                <span class="review-card__stars">★★★★☆</span>
+                            </div>
+                            <p class="review-card__text">봉준호가 다시 해냈다. 중간에 톤이 바뀌는 지점은 정말 놀랍습니다.</p>
+                        </div>
+                        <button class="button button--secondary review-button">리뷰 작성하기</button>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">&copy; 2026 올필름. 디렉터의 선택.</p>
+        </div>
+    </footer>
+</body>
+</html>

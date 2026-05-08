@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화 상세 정보 | 올필름</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+    <header class="header">
+        <div class="header__container">
+            <a href="index.html" class="header__logo">올필름</a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="index.html" class="header__link">홈</a></li>
+                    <li class="header__item"><a href="#" class="header__link">영화</a></li>
+                    <li class="header__item"><a href="#" class="header__link">시리즈</a></li>
+                </ul>
+            </nav>
+            <div class="header__user">
+                <button class="button button--secondary">로그인</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Movie Hero Section -->
+        <section class="movie-hero" style="background-image: linear-gradient(rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.9) 100%), url('https://images.unsplash.com/photo-1585647347384-2593bc35786b?auto=format&fit=crop&q=80&w=1920');">
+            <div class="movie-hero__container">
+                <div class="movie-hero__content">
+                    <span class="movie-hero__category">장르</span>
+                    <h1 class="movie-hero__title">영화 제목</h1>
+                    <div class="movie-hero__meta">
+                        <span class="movie-hero__rating">★ 0.0</span>
+                        <span class="movie-hero__year">연도</span>
+                        <span class="movie-hero__duration">000분</span>
+                        <span class="movie-hero__director">감독: 이름</span>
+                    </div>
+                    <div class="movie-hero__actions">
+                        <button class="button button--primary">지금 시청하기</button>
+                        <button class="button button--secondary">관심 콘텐츠 추가</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Movie Details -->
+        <div class="movie-details">
+            <div class="movie-details__container">
+                <div class="movie-details__layout">
+                    <!-- Synopsis & Info -->
+                    <section class="movie-info">
+                        <h2 class="movie-info__title">줄거리</h2>
+                        <p class="movie-info__text">
+                            영화의 상세 줄거리가 이곳에 표시됩니다.
+                        </p>
+                        <div class="movie-info__grid">
+                            <div class="movie-info__item">
+                                <h3 class="movie-info__label">출연진</h3>
+                                <p class="movie-info__value">배우 이름들</p>
+                            </div>
+                            <div class="movie-info__item">
+                                <h3 class="movie-info__label">주요 수상</h3>
+                                <p class="movie-info__value">수상 내역</p>
+                            </div>
+                        </div>
+
+                        <!-- Still Cuts -->
+                        <div class="movie-stills">
+                            <h2 class="movie-info__title">스틸컷</h2>
+                            <div class="movie-stills__grid">
+                                <div class="movie-stills__item" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800');"></div>
+                                <div class="movie-stills__item" style="background-image: url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=800');"></div>
+                                <div class="movie-stills__item" style="background-image: url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=800');"></div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Reviews Section -->
+                    <aside class="movie-reviews">
+                        <h2 class="movie-info__title">사용자 리뷰</h2>
+                        <div class="review-card">
+                            <div class="review-card__header">
+                                <span class="review-card__user">사용자</span>
+                                <span class="review-card__stars">★★★★★</span>
+                            </div>
+                            <p class="review-card__text">리뷰 내용이 이곳에 표시됩니다.</p>
+                        </div>
+                        <button class="button button--secondary review-button">리뷰 작성하기</button>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">&copy; 2026 올필름. 디렉터의 선택.</p>
+        </div>
+    </footer>
+</body>
+</html>
